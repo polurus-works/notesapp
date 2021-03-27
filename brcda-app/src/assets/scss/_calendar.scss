@@ -1,0 +1,36 @@
+.brcda-calendar {
+  .react-calendar__tile--active {
+    background-color: $brand-color;
+  }
+}
+
+.calendar-card {
+  border-left: 0.25em solid $brand-orange;
+}
+
+.notes-header {
+  background-color: $brand-green;
+  padding: 0.625em 0.625em;
+  color: $brand-white;
+  h3 {
+    font-size: 1.25em;
+  }
+}
+
+.custom-calendar {
+  .react-calendar {
+    background-color: $brand-color;
+    color: $brand-white;
+  }
+  .react-calendar__month-view__days {
+    button {
+      color: $brand-white;
+    }
+  }
+  .react-calendar__navigation {
+    background-color: #9253a1;
+    button {
+      color: $brand-white;
+    }
+  }
+}

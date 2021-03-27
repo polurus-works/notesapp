@@ -1,0 +1,23 @@
+@import "variables";
+@import "calendar";
+@import "table";
+@import "dashboard";
+@import "sidebar";
+@import "header";
+@import "datepicker";
+
+body {
+  font: 1em/1.375 "Roboto", sans-serif;
+  background-color: $body-bg;
+}
+
+.block {
+  background-color: $brand-white;
+  padding: 0.625em 0.938em;
+  overflow: hidden;
+}
+
+.block h2 {
+  padding: 0.625em 0.625em;
+  font-size: 1.125em;
+}

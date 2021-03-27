@@ -1,0 +1,23 @@
+.brcda-table {
+  .table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #f8f8f8;
+  }
+  table {
+    tr {
+      th {
+        cursor: pointer;
+        background-color: #17a2b8;
+      }
+      td {
+        i {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.td-wrap {
+  word-break: break-all;
+  max-width: 12.5em;
+}

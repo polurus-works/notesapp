@@ -1,0 +1,31 @@
+$brand-color: #263146;
+$brand-blue: #007bff;
+$brand-violet: #9253a1;
+$brand-orange: #ffc107;
+$brand-green: #82c340;
+$brand-sky: #17a2b8;
+$brand-grey: #f8f8f8;
+$body-bg: #f6f6f6;
+$sidebar-active: #e5ebed;
+$brand-white: #fff;
+$brand-bluelight: #00b5d1;
+
+.bg-orange {
+  background-color: $brand-orange;
+}
+
+.bg-sky {
+  background-color: $brand-sky;
+}
+
+.bg-blue-light {
+  background-color: $brand-bluelight;
+}
+
+.bg-brand {
+  background-color: $brand-color;
+}
+
+.bg-violet {
+  background-color: $brand-violet;
+}
