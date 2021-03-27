@@ -4,6 +4,7 @@ npm install <br>
 npm start <br>
 
 if node-sass is failing install ruby/compass on your machine <br>
+http://localhost:3000 or it will pick automatically if port is already running
 
 # Frameworks Used <br>
 React Hooks <br>
